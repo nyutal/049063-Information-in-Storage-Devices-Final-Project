@@ -17,3 +17,5 @@ https://www.kaggle.com/juliansimon/location-history
 - maybe normal distributed sources compression will do well on such data, still didn't get deep in it but found some ideas:  
 https://cs.stackexchange.com/questions/20156/compressing-normally-distributed-data  
 - another idea: compress each column (feature) separately in order to improve entropy and by that improve compression ratio.
+- compress float number:
+    http://www.cs.unc.edu/~isenburg/lcpfpv/
