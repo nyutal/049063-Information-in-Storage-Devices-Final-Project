@@ -40,7 +40,7 @@ both the html and the notebook contains button on the top of the document which 
 `python main.py`
 
 ##### GZIP
-######LZ77+Huffman 
+###### LZ77+Huffman
 1. Create train set with create_training_set method with data_set_path(incase you need):
 `cd src`
 `python -c 'import External_func; print External_func.create_training_set("data_set_path")'
@@ -58,7 +58,7 @@ both the html and the notebook contains button on the top of the document which 
 4. run the main file:  
 `python main.py`
 
-#######LZ77 (split data,control,offset_high,offset_low,length )+Huffman
+###### LZ77 (split data,control,offset_high,offset_low,length )+Huffman
 1. Create train set with create_training_set method with data_set_path(incase you need):
 `cd src`
 `python -c 'import External_func; print External_func.create_training_set("data_set_path")'
@@ -77,7 +77,7 @@ both the html and the notebook contains button on the top of the document which 
 4. run the main file:  
 `python main.py`
 
-#######LZ77 (separation columns) +Huffman
+###### LZ77 (separation columns) + Huffman  
 1. Create train set with create_training_set method with data_set_path(incase you need):
 `cd src`
 `python -c 'import External_func; print External_func.create_training_set("data_set_path")'
