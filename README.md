@@ -22,8 +22,79 @@ both the html and the notebook contains button on the top of the document which 
 `python run_huffman.py <data_set_path>`
 
 ##### LZ77
+1. Create train set with create_training_set method with data_set_path(incase you need):
+`cd src`
+`python -c 'import External_func; print External_func.create_training_set("data_set_path")'
+
+2. enter LZ77 directory:  
+`cd src/LZ77`
+
+3. edit the main file with desired  parameters:
+	data_file=["data_file_path"]
+	train_set_file=["train_set_file"]
+	title=["Plot title"]
+	max_seq_bits=[5,6]          #control the range values for max_seq bits(length) in LZ77
+	window_size_bits_s=[17,18]  #control the range values for window_size bits(offset) in LZ77- bit separation mode
+	window_size_bits_d=[12,13]  #control the range values for window_size bits(offset) in LZ77- delimiter mode
+4. run the main file:  
+`python main.py`
 
 ##### GZIP
+######LZ77+Huffman 
+1. Create train set with create_training_set method with data_set_path(incase you need):
+`cd src`
+`python -c 'import External_func; print External_func.create_training_set("data_set_path")'
+
+2. enter LZ77 directory:  
+`cd src/Part3-huffman_and_LZ77/lz77_and_huffman`
+
+3. edit the main file with desired  parameters:
+	data_file=["data_file_path"]
+	train_set_file=["train_set_file"]
+	title=["Plot title"]
+	max_seq_bits=[5,6]          #control the range values for max_seq bits(length) in LZ77
+	window_size_bits_s=[17,18]  #control the range values for window_size bits(offset) in LZ77- bit separation mode
+
+4. run the main file:  
+`python main.py`
+
+#######LZ77 (split data,control,offset_high,offset_low,length )+Huffman
+1. Create train set with create_training_set method with data_set_path(incase you need):
+`cd src`
+`python -c 'import External_func; print External_func.create_training_set("data_set_path")'
+
+2. enter LZ77 directory:  
+`cd src/Part3-huffman_and_LZ77/lz77_and_huffman_split_data_control`
+
+3. edit the main file with desired  parameters:
+	data_file=["data_file_path"]
+	train_set_file=["train_set_file"]
+	title=["Plot title"]
+	max_seq_bits=[5,6]          #control the range values for max_seq bits(length) in LZ77
+	window_size_bits_s=[17,18]  #control the range values for window_size bits(offset) in LZ77- bit separation mode
+	min_seq=[4,5,6]             #control the minimum sequence that LZ77  start to copy
+
+4. run the main file:  
+`python main.py`
+
+#######LZ77 (separation columns) +Huffman
+1. Create train set with create_training_set method with data_set_path(incase you need):
+`cd src`
+`python -c 'import External_func; print External_func.create_training_set("data_set_path")'
+
+2. enter LZ77 directory:  
+`cd src/Part3-huffman_and_LZ77/separate_columns`
+
+3. edit the main file with desired  parameters:
+	data_file=["data_file_path"]
+	train_set_file=["train_set_file"]
+	title=["Plot title"]
+	max_seq_bits=[5,6]          #control the range values for max_seq bits(length) in LZ77
+	window_size_bits_s=[17,18]  #control the range values for window_size bits(offset) in LZ77- bit separation mode
+	equal=[True]                #set the algorithm wto work with data set that all columns are of equal length
+
+4. run the main file:  
+`python main.py`
 
 ##### Clustered Huffman
 1. enter clustered huffman directory:  
