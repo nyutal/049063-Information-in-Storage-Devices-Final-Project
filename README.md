@@ -1,9 +1,12 @@
 # 0943063 Final Project - Compressing Data sets For machine Learning
 
 This repository contains all the final project content.  
-Final html report located at ./docs/final_project.html, it translated from our main jupyter notebook which located under src/final_project.ipynb.  
-The html report need some png links from the repo, and the notebook need a lot of resource from the repo such the data set, hence download just those files will not works well, please download all.  
-both the html and the notebook contains button on the top of the document which hide/show code. the code add a lot of lines and for first read we recommend hiding the code.
+Final html report located at ./docs/final_project.html
+It is translated from our main jupyter notebook which located under src/final_project.ipynb.  
+The html report needs some png links from the repo, and the notebook needs a lot of resource from the repo such the data set,
+hence download just those files will not works well, please download all the repository.  
+both the html and the notebook contains button on the top of the document which hide/show code.
+The code add a lot of lines and for first read we recommend hiding the code.
 
 
 
