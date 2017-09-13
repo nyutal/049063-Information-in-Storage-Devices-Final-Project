@@ -1,5 +1,8 @@
 # 0493063 Final Project - Compressing Data sets For machine Learning
+An Online HTML version of the report can be found at:
+https://final-project-kt-ny-0493063.herokuapp.com/
 
+### Local Report
 This repository contains all the final project content.  
 Final html report located at ./docs/final_project.html
 It is translated from our main jupyter notebook which located under src/final_project.ipynb.  
