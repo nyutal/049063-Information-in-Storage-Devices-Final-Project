@@ -1,4 +1,4 @@
-# 0943063 Final Project - Compressing Data sets For machine Learning
+# 0493063 Final Project - Compressing Data sets For machine Learning
 
 This repository contains all the final project content.  
 Final html report located at ./docs/final_project.html
